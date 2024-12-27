@@ -14,7 +14,7 @@ import db # location: app/db/__init__.py
 load_dotenv()
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
-GUILD_ID = int(os.getenv("PSIPHI_SERVER_ID"))
+GUILD_ID = int(os.getenv("SERVER_ID"))
 
 # restrict a command to a list of roles
 def is_allowed_roles(role_names: list[str]):
